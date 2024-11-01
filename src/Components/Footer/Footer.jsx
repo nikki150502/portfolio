@@ -23,7 +23,7 @@ export const Footer = () => {
         </div>
         <hr />
         <div className="footer-button">
-            <p className="footer-button-left">@ 2020 nikita kumawat, All right</p>
+            <p className="footer-button-left">@ 😄 2024 nikita kumawat, All right 👍</p>
         </div>
     </div>
     </>

@@ -1,92 +1,114 @@
-/* Footer.css */
-
+ /* Footer Styles */
 .footer {
-    background:linear-gradient(280deg, rgb(84, 84, 74),rgb(15, 15, 15) ); /* Light background color for the footer */
-    padding: 2rem 1rem; /* Padding for the footer */
-    text-align: center; /* Center text alignment */
-    color: white; /* Text color */
+    background: linear-gradient(280deg, rgb(84, 84, 74), rgb(15, 15, 15));
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
 }
 
 .footer-top {
-    display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Space between left and right sections */
-    align-items: center; /* Center items vertically */
-    margin-bottom: 1rem; /* Space below footer top */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 .footer-top-left {
-    display: flex; /* Use flexbox for left section */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    align-items: center;
 }
 
 .footer-top-left img {
-    width: 60px; /* Image size */
-    height: 60px; /* Image size */
-    border-radius: 50%; /* Circular image */
-    margin-right: 1rem; /* Space between image and text */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 1rem;
 }
 
 .footer-top-left p {
-    font-size: 1.2rem; /* Font size for description */
-    font-weight: bold; /* Bold text for emphasis */
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .footer-top-right {
-    display: flex; /* Use flexbox for right section */
-    align-items: center; /* Center items vertically */
+    display: flex;
+    align-items: center;
 }
 
 .footer-email-input {
-    display: flex; /* Flexbox for email input */
-    align-items: center; /* Center items vertically */
-    background-color: #fff; /* White background for input area */
-    border-radius: 5px; /* Rounded corners */
-    border: 1px solid #ccc; /* Border color */
-    overflow: hidden; /* Prevent overflow */
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
 
 .footer-email-input img {
-    width: 30px; /* Icon size */
-    height: 30px; /* Icon size */
-    padding: 0.5rem; /* Padding for icon */
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
 }
 
 .footer-email-input input {
-    border: none; /* Remove default border */
-    padding: 0.5rem; /* Padding for input */
-    font-size: 1rem; /* Font size for input */
-    outline: none; /* Remove outline on focus */
-    width: 200px; /* Fixed width for input */
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    width: 200px;
 }
 
 .footer-subscribe {
- 
-    background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1);
-    color: white; /* Button text color */
-    padding: 0.5rem 1rem; /* Button padding */
-    border-radius: 5px; /* Rounded corners for button */
-    cursor: pointer; /* Pointer cursor on hover */
-    margin-left: 0.5rem; /* Space between input and button */
-    transition: background-color 0.3s; /* Transition for hover effect */
+    background: linear-gradient(276deg, #DA7C25 0.36%, #B923E1);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s;
 }
 
 .footer-subscribe:hover {
-    background-color: #d97b3e; /* Darker shade on hover */
+    background-color: #d97b3e;
 }
 
 hr {
-    margin: 1rem 0; /* Spacing for horizontal rule */
-    border: 1px solid pink; /* Border color */
+    margin: 1rem 0;
+    border: 1px solid pink;
 }
 
 .footer-button {
-    display: flex; /* Flexbox for button area */
-    justify-content: center; /* Center content */
-     /* background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1); */
+    display: flex;
+    justify-content: center;
 }
 
 .footer-button-left {
-    font-size: 0.9rem; /* Font size for copyright */
-    color: white; /* Lighter color for copyright */
-    /* background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1); */
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 460px) {
+    .footer {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-top-left,
+    .footer-top-right {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .footer-email-input input {
+        width: 100%; /* Make input full width on small screens */
+    }
+    .footer-subscribe {
+        margin-top: 0.5rem;
+        width: 100%; /* Make subscribe button full width on small screens */
+    }
 }
