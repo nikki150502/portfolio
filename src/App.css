@@ -1,5 +1,8 @@
+
+
 .App {
   text-align: center;
+   background:linear-gradient(280deg, rgb(84, 84, 74),rgb(15, 15, 15) ); /* Light background color for the footer */
 }
 
 .App-logo {

@@ -1,0 +1,92 @@
+/* Footer.css */
+
+.footer {
+    background:linear-gradient(280deg, rgb(84, 84, 74),rgb(15, 15, 15) ); /* Light background color for the footer */
+    padding: 2rem 1rem; /* Padding for the footer */
+    text-align: center; /* Center text alignment */
+    color: white; /* Text color */
+}
+
+.footer-top {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 1rem; /* Space below footer top */
+}
+
+.footer-top-left {
+    display: flex; /* Use flexbox for left section */
+    align-items: center; /* Center items vertically */
+}
+
+.footer-top-left img {
+    width: 60px; /* Image size */
+    height: 60px; /* Image size */
+    border-radius: 50%; /* Circular image */
+    margin-right: 1rem; /* Space between image and text */
+}
+
+.footer-top-left p {
+    font-size: 1.2rem; /* Font size for description */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.footer-top-right {
+    display: flex; /* Use flexbox for right section */
+    align-items: center; /* Center items vertically */
+}
+
+.footer-email-input {
+    display: flex; /* Flexbox for email input */
+    align-items: center; /* Center items vertically */
+    background-color: #fff; /* White background for input area */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Border color */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.footer-email-input img {
+    width: 30px; /* Icon size */
+    height: 30px; /* Icon size */
+    padding: 0.5rem; /* Padding for icon */
+}
+
+.footer-email-input input {
+    border: none; /* Remove default border */
+    padding: 0.5rem; /* Padding for input */
+    font-size: 1rem; /* Font size for input */
+    outline: none; /* Remove outline on focus */
+    width: 200px; /* Fixed width for input */
+}
+
+.footer-subscribe {
+ 
+    background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1);
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Button padding */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-left: 0.5rem; /* Space between input and button */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.footer-subscribe:hover {
+    background-color: #d97b3e; /* Darker shade on hover */
+}
+
+hr {
+    margin: 1rem 0; /* Spacing for horizontal rule */
+    border: 1px solid pink; /* Border color */
+}
+
+.footer-button {
+    display: flex; /* Flexbox for button area */
+    justify-content: center; /* Center content */
+     /* background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1); */
+}
+
+.footer-button-left {
+    font-size: 0.9rem; /* Font size for copyright */
+    color: white; /* Lighter color for copyright */
+    /* background:linear-gradient(276deg,#DA7C25 0.36%,#B923E1); */
+}

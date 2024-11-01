@@ -1,0 +1,144 @@
+ /* About.css */
+
+.about {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.about-title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(90deg, #DA7C25, #B923E1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: black;
+    color: transparent;
+}
+
+.about-title img {
+    width: 350px;
+    
+    border-radius: 30%;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.about-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.about-left, .about-right {
+    flex: 1;
+}
+
+.about-left img {
+    width: 350px; /* Adjust as needed */
+    
+    border-radius: 50%;
+}
+
+.about-para p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.about-skills {
+    margin-top: 1rem;
+}
+
+.about-skill {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.about-skill p {
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+    text-align: left;
+}
+
+.about-skill hr {
+    flex: 3;
+    height: 4px;
+    background: linear-gradient(90deg, #DA7C25, #B923E1);
+    border: none;
+    border-radius: 2px;
+}
+
+.about-achievements {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.about-achievement h1 {
+    font-size: 2rem;
+    background: linear-gradient(90deg, #DA7C25, #B923E1);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.about-achievement h1:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.about-achievement p {
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (min-width: 768px) {
+    /* Tablet view */
+    .about-sections {
+        flex-direction: row;
+    }
+
+    .about-title img {
+        width: 150px;
+        height: 200px;
+    }
+   
+}
+
+@media (min-width: 1024px) {
+    /* Desktop view */
+    .about-title h1 {
+        font-size: 3rem;
+    }
+
+    .about-para p {
+        font-size: 1.1rem;
+    }
+
+    .about-achievement h1 {
+        font-size: 2.5rem;
+    }
+    @media (max-width:460px) {
+        .about-left img{
+            width:100px;
+        }
+        .navbar img{
+            display: none;
+
+        }
+        
+    }
+}
