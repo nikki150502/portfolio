@@ -1,7 +1,7 @@
  
  import React from 'react';
  import './Contact.css';
- import logo from '../../images/logo (2).jpg';
+ import  logo from '../../images/logo (2).jpg';
  import phone from '../../images/phone.jpg'
  import email from '../../images/email.jpg'
  import location from '../../images/location.jpg'
@@ -23,11 +23,11 @@
              <div className="contact-detail">
                <img src=
                {email} alt=" " />
-               <p>nikita@gmail.com</p>
+               <p className='email'><a href="">nikitakumawat690@gmail.com</a> </p>
              </div>
              <div className="contact-detail">
                <img src= {phone} alt=" " />
-               <p>+91 xxxx-yyyy-89</p>
+               <p>+91 9024755049</p>
              </div>
              <div className="contact-detail">
                <img src={location} alt=" " />

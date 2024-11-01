@@ -10,6 +10,9 @@
 
 .work-title {
     margin-bottom: 2rem;
+    background: linear-gradient(90deg, #eea24c, #b81de2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .work-title h1 {

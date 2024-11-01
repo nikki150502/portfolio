@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import logo from '../../images/logo (2).jpg';
-import underline from '../../images/underline.jpg';
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -11,33 +10,45 @@ export const Navbar = () => {
       <img src={logo} alt="nikita" />
       <ul className="nav-menu">
         <li>
-          <a href="#home" className='anchor-link' onClick={() => setMenu("home")}>
+          <a 
+            href="#home" 
+            className={`anchor-link ${menu === "home" ? "active" : ""}`} 
+            onClick={() => setMenu("home")}
+          >
             Home
           </a>
-          {menu === "home" && <img src={underline} alt="" className="underline" />}
         </li>
         <li>
-          <a href="#about" className='anchor-link' onClick={() => setMenu("about")}>
+          <a 
+            href="#about" 
+            className={`anchor-link ${menu === "about" ? "active" : ""}`} 
+            onClick={() => setMenu("about")}
+          >
             About me
           </a>
-          {menu === "about" && <img src={underline} alt="" className="underline" />}
         </li>
         <li>
-          <a href="#work" className='anchor-link' onClick={() => setMenu("portfolio")}>
+          <a 
+            href="#work" 
+            className={`anchor-link ${menu === "portfolio" ? "active" : ""}`} 
+            onClick={() => setMenu("portfolio")}
+          >
             Portfolio
           </a>
-          {menu === "portfolio" && <img src={underline} alt="" className="underline" />}
         </li>
         <li>
-          <a href="#contact" className='anchor-link' onClick={() => setMenu("contact")}>
+          <a 
+            href="#contact" 
+            className={`anchor-link ${menu === "contact" ? "active" : ""}`} 
+            onClick={() => setMenu("contact")}
+          >
             Contact
           </a>
-          {menu === "contact" && <img src={underline} alt="" className="underline" />}
         </li>
       </ul>
-      <div className="nav-connect">
-        Connect With me
-      </div>
+     <a href="https://www.linkedin.com/in/nikita-kumawat-976b7828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <div className="nav-connect">
+        Connect
+      </div></a> 
     </div>
   );
 }

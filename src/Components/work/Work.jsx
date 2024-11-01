@@ -1,6 +1,7 @@
 import React from 'react';
 import './Work.css';
-import logo from "../../images/logo (2).jpg";
+
+import profile from "../../images/profile.jpg";
 import foodDeliveryImg from "../../images/food_delivery.png"; // Replace with actual image path
 import foodDeliveryHoverImg from "../../images/food_delivery_hover.jpg"; // Replace with actual hover image path
 import notesImg from "../../images/notes_app.jpg"; // Replace with actual image path
@@ -55,7 +56,7 @@ export const Work = () => {
     <div id='work' className="work">
       <div className="work-title">
         <h1>My Latest Work</h1>
-        <img src={logo} alt="Logo" />
+        <img src={profile} alt="" />
       </div>
       <div className="mywork-container">
         {projects.map((project, index) => (

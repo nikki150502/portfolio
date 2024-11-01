@@ -50,7 +50,7 @@
     font-weight: 500;
     border-radius: 50px;
     cursor: pointer;
-     
+     text-decoration: none;
     transition: background-color 0.3s ease, color 0.3s ease;
     background: linear-gradient(135deg, #6a11cb, #2575fc);
     color: #fff;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import profile from "../../images/profile.jpg";
+import photo from "../../images/photo (2).jpeg"
 import logo from "../../images/logo (2).jpg";
 
 export const About = () => {
@@ -12,7 +12,7 @@ export const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile} alt="Profile" />
+          <img src={photo} alt="" />
         </div>
         <div className="about-right">
           <div className="about-para">
