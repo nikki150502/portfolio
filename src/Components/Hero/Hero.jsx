@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import photo from "../../images/photo (2).jpeg"
+import resume from '../../images/resume.png';
 
 export const Hero = () => {
   return (
@@ -13,7 +14,7 @@ export const Hero = () => {
           <a href="https://www.linkedin.com/in/nikita-kumawat-976b7828b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
             <div className="hero-connect">Connect</div>
           </a>  
-          <a href="/Nikita_Kumawat_Resume (4).pdf" target="_blank" rel="noopener noreferrer">
+          <a href= {resume} target="_blank" rel="noopener noreferrer">
             <div className="hero-resume">My Resume</div>
           </a>  
         </div>
