@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f49fa59d.css",
+    "main.js": "/portfolio/static/js/main.4917cf13.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/food_delivery.png": "/portfolio/static/media/food_delivery.b205eddd1674508f8d5b.png",
+    "static/media/food_menu.jpg": "/portfolio/static/media/food_menu.7ba962a37f4f303b912e.jpg",
+    "static/media/notes_app_hover.jpg": "/portfolio/static/media/notes_app_hover.eb7da7937f51f2241b29.jpg",
+    "static/media/notes_app.jpg": "/portfolio/static/media/notes_app.06b4dc6a55efa1aefa28.jpg",
+    "static/media/photo (2).jpeg": "/portfolio/static/media/photo (2).ac48f0ee01dcf315cb87.jpeg",
+    "static/media/food_menu_hover.jpg": "/portfolio/static/media/food_menu_hover.a60e90543a5e30b9421e.jpg",
+    "static/media/profile.jpg": "/portfolio/static/media/profile.2f12c8082319bad14afd.jpg",
+    "static/media/dashboard_hover.jpg": "/portfolio/static/media/dashboard_hover.2d5d8c4018c213294751.jpg",
+    "static/media/food_delivery_hover.jpg": "/portfolio/static/media/food_delivery_hover.6d7df14d1f8fb250947c.jpg",
+    "static/media/dashboard.jpg": "/portfolio/static/media/dashboard.088737e58fb309c44d3d.jpg",
+    "static/media/phone.jpg": "/portfolio/static/media/phone.3d870d736cf6795ff10c.jpg",
+    "static/media/weather_app.jpg": "/portfolio/static/media/weather_app.f8e1a55f6a200f960508.jpg",
+    "static/media/logo (2).jpg": "/portfolio/static/media/logo (2).d81acbda10a488b01313.jpg",
+    "static/media/weather_app_hover.jpg": "/portfolio/static/media/weather_app_hover.257f45f37dfaec20bbdc.jpg",
+    "static/media/location.jpg": "/portfolio/static/media/location.38ea40951ed2352d1fb1.jpg",
+    "static/media/email.jpg": "/portfolio/static/media/email.6913181d9efa75eb2a34.jpg",
+    "static/media/footer.jpg": "/portfolio/static/media/footer.9f3f12b472f045016c12.jpg",
+    "static/media/user.jpg": "/portfolio/static/media/user.514b58b88ba50f4f6261.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.f49fa59d.css.map": "/portfolio/static/css/main.f49fa59d.css.map",
+    "main.4917cf13.js.map": "/portfolio/static/js/main.4917cf13.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f49fa59d.css",
+    "static/js/main.4917cf13.js"
+  ]
+}
