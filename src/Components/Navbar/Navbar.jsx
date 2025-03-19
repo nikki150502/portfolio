@@ -33,7 +33,7 @@ export const Navbar = () => {
             className={`anchor-link ${menu === "portfolio" ? "active" : ""}`} 
             onClick={() => setMenu("portfolio")}
           >
-            Portfolio
+            Project
           </a>
         </li>
         <li>
